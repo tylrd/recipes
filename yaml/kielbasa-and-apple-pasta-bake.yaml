@@ -1,0 +1,53 @@
+---
+oven_temp:
+  amount: 350
+  unit: F
+yields: 4 servings
+recipe_name: Kielbasa and Apple Pasta Bake
+categories: Italian
+ingredients:
+  - name: Rigatoni/Penne Pasta
+    amount: 8
+    unit: oz.
+  - name: Milk
+    amount: 2
+    unit: cups
+  - name: All Purpose Flour
+    amount: 2
+    unit: tbps.
+  - name: Cheese
+    amount: 4
+    unit: oz.
+  - name: Salt
+    amount: 1/2
+    unit: teaspoon
+  - name: Hot Pepper Sauce
+    amount: 1/2
+    unit: teaspoon
+  - name: Fuji Apples
+    amount: 3
+  - name: Cooked Kielbasa
+    amount: 8
+    unit: oz.
+  - name: Green Onion
+    amount: 1
+steps:
+  - Preheat oven to 350 degrees F. Coat a 2-quart baking dish or casserole with 
+    nonstick cooking spray; set aside.
+  - Cook pasta according to package directions in a large saucepan. Drain and 
+    return to saucepan; set aside.
+  - Thinly slice green onion
+  - Cut apples into 1/2 inch cubes
+  - Shred cheese
+  - Halve kielbasa lengthwise and slice 1/4 thick
+  - In a medium saucepan whisk together milk and flour. Cook and stir over medium
+    heat until thickened and bubbly. Cook and stir 1 minute more. Remove from
+    heat. Stir 1/2 cup of cheese, salt and hot pepper sauce into the milk mixture
+    until smooth.
+  - In the large saucepan toss together the cooked pasta, apples, kielbasa 
+    and cheese sauce. Transfer to prepared baking dish; cover with foil.
+  - Bake in preheated oven for 20 minutes. Uncover and carefully stir pasta mixture.
+    Sprinkle with remaining 1/2 cup cheese and the green onion.
+    Bake 10-15 minuted more or until cheese is melted and sauce is bubbly.
+    Remove from oven and let stand for 10 minutes before serving.
+---

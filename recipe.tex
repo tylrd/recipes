@@ -3,6 +3,8 @@
 \usepackage{lastpage} % Required to determine the last page for the footer
 \usepackage{parskip}
 \usepackage{multicol}
+\usepackage{multicol}
+\usepackage{xfrac} % Allows slanted fractions
 % Margins
 % \topmargin=-0.5in
 % \leftmargin=-0.5in
@@ -28,7 +30,6 @@
 \setromanfont [Ligatures={Common}, Numbers={OldStyle}]{\serifFont}
 \setmainfont[SmallCapsFeatures={LetterSpace=5,Letters=SmallCaps}]{\serifFont}
 \setsansfont{\sansFont}
-
 
 % HEADER AND FOOTER
 % -----------------
@@ -77,14 +78,14 @@
 \begin{center}
 {\Large Ingredients}
 \end{center}
-% \vspace{-3mm}
+\vspace{3mm}
 \hrule
 
 $if(ingredients)$
   \begin{multicols}{2}
     \begin{itemize}
       $for(ingredients)$
-        \item $it$
+        \item $it.name$ $if(it.amount)$($it.amount$$if(it.unit)$ $it.unit$$endif$)$endif$
       $endfor$
     \end{itemize}
   \end{multicols}
@@ -94,7 +95,7 @@ $elseif(ingredients_split)$
     \begin{multicols}{2}
       \begin{itemize}
         $for(it.value)$
-          \item $it$
+          \item $it.name$ ($it.amount$$if(it.unit)$ $it.unit$$endif$)
         $endfor$
       \end{itemize}
     \end{multicols}
@@ -104,16 +105,12 @@ $endif$
 \hrule
 \medskip
 
-\begin{center}
-{\Large Method}
-\end{center}
-
 $if(steps)$
-  $for(steps)$
-  $it$
-
-  \medskip
-  $endfor$
+  \begin{enumerate}
+    $for(steps)$
+    \item $it$
+    $endfor$
+  \end{enumerate}
 $elseif(steps_split)$
   $for(steps_split/pairs)$
     \textbf{\large $it.key$}

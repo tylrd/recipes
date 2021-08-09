@@ -2,13 +2,15 @@
 recipe_name: Chicken Tacos
 categories: Mexican
 ingredients:
-  - Flour tortillas
-  - White onion
-  - Cilantro
-  - Sour Cream
-  - Salsa
-  - Mexican Cheese
-  - Guacamole
+  - name: Flour tortillas
+  - name: White onion
+  - name: Cilantro
+  - name: Sour Cream
+  - name: Salsa
+  - name: Mexican Cheese
+  - name: Guacamole
+    amount: \sfrac{1}{2}
+    unit: cup
 steps:
   - Dice white onion
   - Roughly chop cilantro
@@ -21,5 +23,5 @@ steps:
   - Move to cutting board and roughly chop
   - Warm up tortillas, add chicken & toppings
 notes: |
-  DON'T FUCKING FRY THE TORTILLAS
+  DON'T FREAKING FRY THE TORTILLAS
 ---
